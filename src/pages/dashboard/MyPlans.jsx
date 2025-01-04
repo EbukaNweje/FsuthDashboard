@@ -20,7 +20,7 @@ const MyPlans = () => {
         setLoading(true);
         try {
             const response = await axios.get(
-                'https://coinstarpro-bitminers-new-backnd.vercel.app/api/getallplan'
+                'https://fsuth-back-end.vercel.app/api/getallplan'
             );
             console.log(response.data.data);
             
