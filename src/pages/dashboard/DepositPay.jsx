@@ -1,7 +1,7 @@
 import {FaArrowLeftLong} from "react-icons/fa6";
 import {MdInfo} from "react-icons/md";
-import qr from "../../assets/qr.jpeg";
-import qrr from "../../assets/qrr.jpeg";
+import qr from "../../assets/qr.jpg";
+import qrr from "../../assets/qrr.jpg";
 import {toast} from "react-toastify";
 import { useNavigate } from "react-router";
 import { useSelector } from "react-redux";
