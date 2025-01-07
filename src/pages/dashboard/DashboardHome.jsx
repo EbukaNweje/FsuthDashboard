@@ -30,7 +30,7 @@ const DashboardHome = () => {
 
     const handleGetUser = async () => {
         setLoading(true)
-        await axios.get(`https://fsuth-back-end.vercel.app/api/userdata/${id}`)
+        await axios.get(`https://fsuth-back-ends.vercel.app/api/userdata/${id}`)
             .then(response => {
                 setLoading(false)
                 setUserDatas(response?.data?.data);

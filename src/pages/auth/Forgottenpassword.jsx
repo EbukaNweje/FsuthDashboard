@@ -26,7 +26,7 @@ const Forgottenpassword = () => {
       const Onsubmit = async (data, e) => {
         e.preventDefault(); 
         setLoading(true)
-        const url = 'https://fsuth-back-end.vercel.app/api/forgot-password'
+        const url = 'https://fsuth-back-ends.vercel.app/api/forgot-password'
         const FormData ={
             email: data.email
         }

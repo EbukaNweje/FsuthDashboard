@@ -20,7 +20,7 @@ const MyPlans = () => {
         setLoading(true);
         try {
             const response = await axios.get(
-                'https://fsuth-back-end.vercel.app/api/getallplan'
+                'https://fsuth-back-ends.vercel.app/api/getallplan'
             );
             console.log(response.data.data);
             
